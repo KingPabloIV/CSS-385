@@ -13,3 +13,7 @@ Grappling Hood 2D
 
 Compare Friction 2D
 	Holding Up Arrow increases the friction of the 0.3f material
+
+1: done
+2: done
+3: 
