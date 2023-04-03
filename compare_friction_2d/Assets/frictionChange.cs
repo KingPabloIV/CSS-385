@@ -24,5 +24,14 @@ public class frictionChange : MonoBehaviour
             col.sharedMaterial.friction +=0.05f;
             Debug.Log("Friction is now: " + col.sharedMaterial.friction);
         }
+        if(Input.GetKey(KeyCode.DownArrow))
+        {
+            col.sharedMaterial.friction -=0.05f;
+            Debug.Log("Friction is now: " + col.sharedMaterial.friction);
+            if(col.sharedMaterial.friction < 0.01f)
+            {
+                col.sharedMaterial.friction = 0.01f;
+            }
+        }
     }
 }
