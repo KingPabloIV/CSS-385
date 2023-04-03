@@ -1,0 +1,15 @@
+WASD movement
+	added acceleration
+	
+Space to Jump
+	Pressing "Left Shift" makes the player fall faster
+
+Camera Zoom 2D
+	Pressing "Left or Right Arrow" will move the camera 
+	Pressing "C" will zoom in
+
+Grappling Hood 2D
+	Player is no longer able to move with WASD when grappling
+
+Compare Friction 2D
+	Holding Up Arrow increases the friction of the 0.3f material
